@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2843FA1E1ED603BB00CBE1B4 /* AccountListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2843FA1D1ED603BB00CBE1B4 /* AccountListsViewController.swift */; };
+		2843FA201ED606A600CBE1B4 /* PicturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2843FA1F1ED606A600CBE1B4 /* PicturesViewController.swift */; };
+		286B0D851ED938AE00C9C1E2 /* SelectUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B0D841ED938AE00C9C1E2 /* SelectUsersViewController.swift */; };
+		28F526251ED5315B0049439E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F526241ED5315B0049439E /* AppDelegate.swift */; };
+		28F526271ED5315B0049439E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F526261ED5315B0049439E /* LoginViewController.swift */; };
+		28F5262A1ED5315B0049439E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F526281ED5315B0049439E /* Main.storyboard */; };
+		28F5262D1ED5315B0049439E /* FeeBoo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28F5262B1ED5315B0049439E /* FeeBoo.xcdatamodeld */; };
+		28F5262F1ED5315B0049439E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28F5262E1ED5315B0049439E /* Assets.xcassets */; };
+		28F526321ED5315B0049439E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F526301ED5315B0049439E /* LaunchScreen.storyboard */; };
+		28F5263A1ED531F60049439E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 28F526391ED531F60049439E /* GoogleService-Info.plist */; };
+		94D038E377FD5565BE6534FE /* Pods_FeeBoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E971BA167DE9B6A27A02CACD /* Pods_FeeBoo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2843FA1C1ED602E500CBE1B4 /* FeeBoo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FeeBoo.entitlements; sourceTree = "<group>"; };
+		2843FA1D1ED603BB00CBE1B4 /* AccountListsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountListsViewController.swift; sourceTree = "<group>"; };
+		2843FA1F1ED606A600CBE1B4 /* PicturesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicturesViewController.swift; sourceTree = "<group>"; };
+		286B0D841ED938AE00C9C1E2 /* SelectUsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectUsersViewController.swift; sourceTree = "<group>"; };
+		28F526211ED5315B0049439E /* FeeBoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeeBoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28F526241ED5315B0049439E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28F526261ED5315B0049439E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		28F526291ED5315B0049439E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28F5262C1ED5315B0049439E /* FeeBoo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FeeBoo.xcdatamodel; sourceTree = "<group>"; };
+		28F5262E1ED5315B0049439E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28F526311ED5315B0049439E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28F526331ED5315B0049439E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28F526391ED531F60049439E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3DD0B2FCDBB3F52857D9D0D9 /* Pods-FeeBoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeeBoo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FeeBoo/Pods-FeeBoo.release.xcconfig"; sourceTree = "<group>"; };
+		528A3E4842CD57A94085EC93 /* Pods-FeeBoo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeeBoo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FeeBoo/Pods-FeeBoo.debug.xcconfig"; sourceTree = "<group>"; };
+		E971BA167DE9B6A27A02CACD /* Pods_FeeBoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FeeBoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28F5261E1ED5315B0049439E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D038E377FD5565BE6534FE /* Pods_FeeBoo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28F526181ED5315B0049439E = {
+			isa = PBXGroup;
+			children = (
+				28F526231ED5315B0049439E /* FeeBoo */,
+				28F526221ED5315B0049439E /* Products */,
+				4D3406A1BA0F00CEE41C9F1A /* Pods */,
+				9B10AF7DA584FE04A2FB2AE0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		28F526221ED5315B0049439E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28F526211ED5315B0049439E /* FeeBoo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28F526231ED5315B0049439E /* FeeBoo */ = {
+			isa = PBXGroup;
+			children = (
+				2843FA1C1ED602E500CBE1B4 /* FeeBoo.entitlements */,
+				28F526241ED5315B0049439E /* AppDelegate.swift */,
+				28F526261ED5315B0049439E /* LoginViewController.swift */,
+				2843FA1D1ED603BB00CBE1B4 /* AccountListsViewController.swift */,
+				2843FA1F1ED606A600CBE1B4 /* PicturesViewController.swift */,
+				286B0D841ED938AE00C9C1E2 /* SelectUsersViewController.swift */,
+				28F526281ED5315B0049439E /* Main.storyboard */,
+				28F5262E1ED5315B0049439E /* Assets.xcassets */,
+				28F526301ED5315B0049439E /* LaunchScreen.storyboard */,
+				28F526331ED5315B0049439E /* Info.plist */,
+				28F5262B1ED5315B0049439E /* FeeBoo.xcdatamodeld */,
+				28F526391ED531F60049439E /* GoogleService-Info.plist */,
+			);
+			path = FeeBoo;
+			sourceTree = "<group>";
+		};
+		4D3406A1BA0F00CEE41C9F1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				528A3E4842CD57A94085EC93 /* Pods-FeeBoo.debug.xcconfig */,
+				3DD0B2FCDBB3F52857D9D0D9 /* Pods-FeeBoo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B10AF7DA584FE04A2FB2AE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E971BA167DE9B6A27A02CACD /* Pods_FeeBoo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28F526201ED5315B0049439E /* FeeBoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28F526361ED5315B0049439E /* Build configuration list for PBXNativeTarget "FeeBoo" */;
+			buildPhases = (
+				730EF9426E17625BF087C69A /* [CP] Check Pods Manifest.lock */,
+				28F5261D1ED5315B0049439E /* Sources */,
+				28F5261E1ED5315B0049439E /* Frameworks */,
+				28F5261F1ED5315B0049439E /* Resources */,
+				8B26C7A7FC6AE026ADC293B9 /* [CP] Embed Pods Frameworks */,
+				C4971DB1FD492DE704C9F066 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FeeBoo;
+			productName = FeeBoo;
+			productReference = 28F526211ED5315B0049439E /* FeeBoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28F526191ED5315B0049439E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Dung Pham";
+				TargetAttributes = {
+					28F526201ED5315B0049439E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = KY568F6DG9;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 28F5261C1ED5315B0049439E /* Build configuration list for PBXProject "FeeBoo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28F526181ED5315B0049439E;
+			productRefGroup = 28F526221ED5315B0049439E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28F526201ED5315B0049439E /* FeeBoo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28F5261F1ED5315B0049439E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28F526321ED5315B0049439E /* LaunchScreen.storyboard in Resources */,
+				28F5263A1ED531F60049439E /* GoogleService-Info.plist in Resources */,
+				28F5262F1ED5315B0049439E /* Assets.xcassets in Resources */,
+				28F5262A1ED5315B0049439E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		730EF9426E17625BF087C69A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8B26C7A7FC6AE026ADC293B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FeeBoo/Pods-FeeBoo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4971DB1FD492DE704C9F066 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FeeBoo/Pods-FeeBoo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28F5261D1ED5315B0049439E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2843FA1E1ED603BB00CBE1B4 /* AccountListsViewController.swift in Sources */,
+				28F5262D1ED5315B0049439E /* FeeBoo.xcdatamodeld in Sources */,
+				2843FA201ED606A600CBE1B4 /* PicturesViewController.swift in Sources */,
+				286B0D851ED938AE00C9C1E2 /* SelectUsersViewController.swift in Sources */,
+				28F526271ED5315B0049439E /* LoginViewController.swift in Sources */,
+				28F526251ED5315B0049439E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28F526281ED5315B0049439E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28F526291ED5315B0049439E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28F526301ED5315B0049439E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28F526311ED5315B0049439E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28F526341ED5315B0049439E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28F526351ED5315B0049439E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28F526371ED5315B0049439E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 528A3E4842CD57A94085EC93 /* Pods-FeeBoo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KY568F6DG9;
+				INFOPLIST_FILE = FeeBoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developer.FeeBoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		28F526381ED5315B0049439E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DD0B2FCDBB3F52857D9D0D9 /* Pods-FeeBoo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KY568F6DG9;
+				INFOPLIST_FILE = FeeBoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.developer.FeeBoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28F5261C1ED5315B0049439E /* Build configuration list for PBXProject "FeeBoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F526341ED5315B0049439E /* Debug */,
+				28F526351ED5315B0049439E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28F526361ED5315B0049439E /* Build configuration list for PBXNativeTarget "FeeBoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28F526371ED5315B0049439E /* Debug */,
+				28F526381ED5315B0049439E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		28F5262B1ED5315B0049439E /* FeeBoo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				28F5262C1ED5315B0049439E /* FeeBoo.xcdatamodel */,
+			);
+			currentVersion = 28F5262C1ED5315B0049439E /* FeeBoo.xcdatamodel */;
+			path = FeeBoo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 28F526191ED5315B0049439E /* Project object */;
+}

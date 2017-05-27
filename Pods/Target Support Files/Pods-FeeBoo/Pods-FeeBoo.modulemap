@@ -1,0 +1,6 @@
+framework module Pods_FeeBoo {
+  umbrella header "Pods-FeeBoo-umbrella.h"
+
+  export *
+  module * { export * }
+}
