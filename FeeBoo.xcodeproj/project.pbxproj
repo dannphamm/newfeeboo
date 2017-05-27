@@ -10,6 +10,7 @@
 		2843FA1E1ED603BB00CBE1B4 /* AccountListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2843FA1D1ED603BB00CBE1B4 /* AccountListsViewController.swift */; };
 		2843FA201ED606A600CBE1B4 /* PicturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2843FA1F1ED606A600CBE1B4 /* PicturesViewController.swift */; };
 		286B0D851ED938AE00C9C1E2 /* SelectUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B0D841ED938AE00C9C1E2 /* SelectUsersViewController.swift */; };
+		286B0D871ED9431600C9C1E2 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286B0D861ED9431600C9C1E2 /* Users.swift */; };
 		28F526251ED5315B0049439E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F526241ED5315B0049439E /* AppDelegate.swift */; };
 		28F526271ED5315B0049439E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F526261ED5315B0049439E /* LoginViewController.swift */; };
 		28F5262A1ED5315B0049439E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F526281ED5315B0049439E /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 		2843FA1D1ED603BB00CBE1B4 /* AccountListsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountListsViewController.swift; sourceTree = "<group>"; };
 		2843FA1F1ED606A600CBE1B4 /* PicturesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicturesViewController.swift; sourceTree = "<group>"; };
 		286B0D841ED938AE00C9C1E2 /* SelectUsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectUsersViewController.swift; sourceTree = "<group>"; };
+		286B0D861ED9431600C9C1E2 /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		28F526211ED5315B0049439E /* FeeBoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeeBoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F526241ED5315B0049439E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28F526261ED5315B0049439E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +53,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		286B0D881ED9434000C9C1E2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				28F526261ED5315B0049439E /* LoginViewController.swift */,
+				2843FA1D1ED603BB00CBE1B4 /* AccountListsViewController.swift */,
+				2843FA1F1ED606A600CBE1B4 /* PicturesViewController.swift */,
+				286B0D841ED938AE00C9C1E2 /* SelectUsersViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		286B0D891ED943A200C9C1E2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				286B0D861ED9431600C9C1E2 /* Users.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		28F526181ED5315B0049439E = {
 			isa = PBXGroup;
 			children = (
@@ -72,12 +93,10 @@
 		28F526231ED5315B0049439E /* FeeBoo */ = {
 			isa = PBXGroup;
 			children = (
+				286B0D891ED943A200C9C1E2 /* Models */,
+				286B0D881ED9434000C9C1E2 /* ViewControllers */,
 				2843FA1C1ED602E500CBE1B4 /* FeeBoo.entitlements */,
 				28F526241ED5315B0049439E /* AppDelegate.swift */,
-				28F526261ED5315B0049439E /* LoginViewController.swift */,
-				2843FA1D1ED603BB00CBE1B4 /* AccountListsViewController.swift */,
-				2843FA1F1ED606A600CBE1B4 /* PicturesViewController.swift */,
-				286B0D841ED938AE00C9C1E2 /* SelectUsersViewController.swift */,
 				28F526281ED5315B0049439E /* Main.storyboard */,
 				28F5262E1ED5315B0049439E /* Assets.xcassets */,
 				28F526301ED5315B0049439E /* LaunchScreen.storyboard */,
@@ -241,6 +260,7 @@
 				286B0D851ED938AE00C9C1E2 /* SelectUsersViewController.swift in Sources */,
 				28F526271ED5315B0049439E /* LoginViewController.swift in Sources */,
 				28F526251ED5315B0049439E /* AppDelegate.swift in Sources */,
+				286B0D871ED9431600C9C1E2 /* Users.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
